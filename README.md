@@ -12,7 +12,7 @@
 ## 📸 Dashboard Preview
 A real-time view of SentinAI detecting a safety violation by cross-referencing the PDF manual.
 
-![Project Dashboard](./dashboard.png)
+![Project Dashboard](./Dashboard.png)
 
 ---
 
@@ -54,9 +54,9 @@ You can use the videos provided in this repo to test specific compliance rules:
 
 | Test Scenario | Video Preview (Click to Play) | Input Query to Type | Expected Result |
 | :--- | :--- | :--- | :--- |
-| **1. Data Security** | [▶️ Watch Mobile Violation](./mobile_violation.mp4) | `mobile phone` | **FAIL** ❌ (Phone detected) |
-| **2. Food Hygiene** | [▶️ Watch Hygiene Violation](./hygiene_violation.mp4) | `hand wash` | **FAIL** ❌ (No hand wash) |
-| **3. PPE Safety** | [▶️ Watch Helmet Violation](./ppe_violation.mp4) | `helmet` / `hard hat` | **FAIL** ❌ (No Headgear) |
+| **1. Data Security** | [▶️ Watch Mobile Violation](./Secret_Smartphone_Use_in_Server_Room.mp4) | `mobile phone` | **FAIL** ❌ (Phone detected) |
+| **2. Food Hygiene** | [▶️ Watch Hygiene Violation](./Unhygienic_Food_Preparation_Video_Generated.mp4) | `hand wash` | **FAIL** ❌ (No hand wash) |
+| **3. Dress Code** | [▶️ Watch Dress code Violation](./Dress_Code_Violation_Surveillance_Footage.mp4) | `Suit` / `formals` | **FAIL** ❌ (No formals) |
 
 ---
 
@@ -66,3 +66,4 @@ You can use the videos provided in this repo to test specific compliance rules:
 ```bash
 git clone [https://github.com/scarwill/SentinAI-Auditor.git](https://github.com/scarwill/SentinAI-Auditor.git)
 cd SentinAI-Auditor
+
